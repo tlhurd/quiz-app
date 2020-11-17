@@ -6,11 +6,19 @@
   *
 */
 h1 {
+  margin-top: 45px;
   text-align: center;
 }
 
+li {
+  list-style: none;
+}
 .container {
   margin: 45px;
   padding: 30px;
-  border: 2px, solid red;
+  border: 2px solid red;
+}
+
+.button {
+  margin: 15px 0px 15px 0px;
 }
