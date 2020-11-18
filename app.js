@@ -80,25 +80,29 @@ const store = {
 
 // These functions return HTML templates
 
-function renderStartPage() {
-  // this function will render the start page to the DOM
+function generateStartPage() {
+  // this function will generate the start page to the DOM
 }
 
-function renderQuestionPage() {
-  //this function will render the question page to the DOM
+function generateQuestionPage() {
+  //this function will generate the question page to the DOM
 }
 
-function renderProgressPage() {
-  //this function will render the progress page to the DOM
+function generateProgressPage() {
+  //this function will generate the progress page to the DOM
 }
 
-function renderFinalPage() {
-  //this function will render the final page to the DOM
+function generateFinalPage() {
+  //this function will generate the final page to the DOM
 }
 
 /********** RENDER FUNCTION(S) **********/
 
 // This function conditionally replaces the contents of the <main> tag based on the state of the store
+
+function render(){
+
+}
 
 /********** EVENT HANDLER FUNCTIONS **********/
 
